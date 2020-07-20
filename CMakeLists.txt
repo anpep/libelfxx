@@ -1,7 +1,7 @@
 cmake_minimum_required (VERSION 2.6)
 
-include_directories(${CMAKE_SOURCE_DIR}/include)
-include_directories(${CMAKE_SOURCE_DIR}/include/libelf++)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include/libelf++)
 
 if (NOT CMAKE_BUILD_TYPE)
   set(CMAKE_BUILD_TYPE DEBUG)
